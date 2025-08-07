@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estágios Curso Técnico</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section>
+        <!--<div id="trocadefundo"> 
+            <button id="fundo1" class="opcoesdefundos"></button>
+            <button id="fundo2" class="opcoesdefundos"></button>
+            <button id="fundo3" class="opcoesdefundos"></button>
+            <button id="fundo4" class="opcoesdefundos"></button>
+        </div>-->
+        <div id="garra"></div>
+        <div id="subdivisao">
+            <div id="quadro"></div>
+            <div id="obj_limite">
+                <div class="obj" id="duvidas">
+                    <button class="ampliar_carta" onclick="abrirModal('carta')"></button>
+                </div>
+                <div class="obj" id="doc1">
+                    <button class="ampliar" onclick="abrirModal('img1')"></button>
+                </div>
+                <div class="obj" id="doc2">
+                    <button class="ampliar" onclick="abrirModal('img2')"></button>
+                </div>
+                <div class="obj" id="doc3">
+                    <button class="ampliar" onclick="abrirModal('img3')"></button>
+                </div>
+                <div class="obj" id="doc4">
+                    <button class="ampliar" onclick="abrirModal('img4')"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <audio id="Ef_Folha" src="/Arquivos/Audios/Pegando_Papel.mp3" preload="auto"></audio>
+    <div class="modal-overlay" id="modal">
+        <div class="close-button" onclick="fecharModal()">X</div>
+        <div class="textoconfig" id="areatexto"></div>
+    </div>
+</body>
+</html>
