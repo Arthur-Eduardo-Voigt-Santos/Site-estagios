@@ -1,5 +1,5 @@
 body{
-    background-image: url(/Arquivos/Texturas/Papeis\ de\ Parede/Fundo1.jpg);    
+    background-image: url('/Arquivos/Texturas/Papeis\ de\ Parede/Fundo1.jpg');    
     background-position: center;
     background-attachment: fixed;
     margin: 0px;
@@ -36,7 +36,7 @@ section{
 
 .opcoesdefundos{
     all: unset;
-    background-image: url(/Arquivos/Texturas/usar\ de\ exemplo.png);
+    background-image: url('/Arquivos/Texturas/usar\ de\ exemplo.png');
     border: 1px solid white;
     height: 200px;
     width: 50px;
@@ -58,7 +58,7 @@ section{
 }
 
 #quadro{
-    background-image: url(/Arquivos/Texturas/Quadro\ de\ avisos.png);
+    background-image: url('/Arquivos/Texturas/Quadro\ de\ avisos.png');
     background-size: 100%;
     background-repeat: no-repeat;
     width: 882px;
@@ -81,7 +81,7 @@ section{
 
 /*Colocar uma folha explicando algumas coisas sobre os estagios e sobre como funciona o site, além de um link para um forms para possiveis duvidas dos alunos*/
 #duvidas{
-    background-image: url(/Arquivos/Papeis/Carta\ de\ Explicação.png);/*TROCAR IMAGEM PARA UM CARTÃO PRETO ESCRITO COM LETRAS DOURADAS*/
+    background-image: url('/Arquivos/Papeis/Carta\ de\ Explicação.png');/*TROCAR IMAGEM PARA UM CARTÃO PRETO ESCRITO COM LETRAS DOURADAS*/
     width: 190px;
     height: 146px;
     left: 600px;
@@ -89,7 +89,7 @@ section{
 }
 
 #doc1{
-    background-image: url(/Arquivos/Papeis/Folha\ 1.png);
+    background-image: url('/Arquivos/Papeis/Folha\ 1.png');
     left: 20px;
     top: 10px;
     width: 191px;
@@ -98,21 +98,21 @@ section{
 
 #doc2{
     display: none;
-    background-image: url(/Arquivos/Papeis/Folha\ 2.png);
+    background-image: url('/Arquivos/Papeis/Folha\ 2.png');
     left: 600px;
     top: 250px;
 }
 
 #doc3{
     display: none;
-    background-image: url(/Arquivos/Papeis/Folha\ 3.png);
+    background-image: url('/Arquivos/Papeis/Folha\ 3.png');
     left: 400px;
     top: 150px;
 }
 
 #doc4{
     display: none;
-    background-image: url(/Arquivos/Papeis/Folha\ 4.png);
+    background-image: url('/Arquivos/Papeis/Folha\ 4.png');
     left: 234px;
     top: 253px;
 }
@@ -199,4 +199,5 @@ section{
     color: white;
     font-size: 28px;
     cursor: pointer;
+
 }
